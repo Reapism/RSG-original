@@ -5,4 +5,6 @@ This code is extremely old, and encompasses my early desire for creating applica
 
 Images from iconFinder.net
 
-[Download](https://github.com/Reapism/RSG/releases)
+[Download latest release](https://github.com/Reapism/RSG/releases)
+
+[See my portfolio](https://reap.myportfolio.com/random-string-generator)
