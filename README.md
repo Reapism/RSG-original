@@ -14,6 +14,7 @@ The method I use to determine entropy is just a starting point. There are a lot 
 This is not a complete list, but in the context of determining the amount of randomness in a string of just english letters. Here is a list with some explanation
 * **Repeating characters**: e.g. string A: `aaaaa` vs. string B: `zqnge`, a is repeated five times, making it much more predictable, and less random than string B. In general, if no character repeats in the string, it is generally considered to have high entropy as long as the other variables in the list arent also validated.
 * **Linguistically recognizable**: e.g. string A: `homes` vs. string B: `aaaaa`, A is recognized because it is a word in the English language
+* **Contextually recognizable**: If the string contain symbols that arent directly used for language, and are used to represent art or describe things without using language, this would reduce entropy if this can be captured in a software algorithm for cracking passwords.
 * **Bruteforcable**: If iterating through every possible combination of the string, will a computer be able to do it in a timespan that is worthy of the task? e.g. string A: `aaaaabbbbbcccccddddd` vs string B: `IZQRHTZMKHKCYTGUOCOX`
 
 # What this project means to me 
